@@ -67,7 +67,7 @@ p {
 }
 
 .logo {
-  width: 200px;
+  width: 200px; /* or try 220px, adjust to taste */
   margin-bottom: 2rem;
 }
 
