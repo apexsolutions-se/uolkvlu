@@ -78,7 +78,7 @@ body {
   position: absolute;
   width: 600px;
   height: 600px;
-  bottom: 3rem;
+  bottom: 10rem;
   right: 6rem;
   opacity: 0;
   transform: translateY(50px);
