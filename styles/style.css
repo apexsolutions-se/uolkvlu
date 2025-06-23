@@ -22,7 +22,7 @@ body {
 /* Logo container - top left */
 .hero-logo {
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   left: 5rem;
 }
 
