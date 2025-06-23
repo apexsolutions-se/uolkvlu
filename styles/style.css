@@ -10,9 +10,10 @@ body {
   background-size: cover;
   height: 100vh;
   display: flex;
-  align-items: flex-start; /* <-- changed from center */
-  justify-content: flex-start;
-  padding-top: 100px; /* space from top */
+  justify-content: flex-start;  /* align items to the left */
+  align-items: center;          /* vertically center */
+  padding-left: 5rem;           /* add space from the left */
+  padding-right: 2rem;
 }
 
 .hero-overlay {
@@ -25,16 +26,13 @@ body {
 }
 
 .hero-content {
-  max-width: 1440px;
+  max-width: 600px;
   width: 100%;
-  padding: 2rem 3rem;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
 }
+
 
 .logo {
   width: 250px;
