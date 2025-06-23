@@ -79,7 +79,7 @@ body {
   width: 600px;
   height: 600px;
   bottom: 2rem;
-  right: 6rem;
+  right: 4rem;
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 1s ease-out 0.3s forwards;
@@ -97,7 +97,7 @@ body {
   position: absolute;
   width: 700px; /* adjust based on how big you want it */
   top: 5rem;
-  right: 10rem;
+  right: 8rem;
   z-index: 1;
 }
 
