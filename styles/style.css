@@ -78,7 +78,7 @@ body {
   position: absolute;
   width: 600px;
   height: 600px;
-  bottom: 10rem;
+  bottom: 2rem;
   right: 6rem;
   opacity: 0;
   transform: translateY(50px);
@@ -95,7 +95,7 @@ body {
 
 .moon {
   position: absolute;
-  width: 800px; /* adjust based on how big you want it */
+  width: 600px; /* adjust based on how big you want it */
   top: 5rem;
   right: 4rem;
   z-index: 1;
