@@ -9,42 +9,55 @@ body {
   background: url('/uolkvlu/assets/hero-bg.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  position: relative;
 }
 
 .hero-overlay {
   background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  position: relative;
 }
 
-.hero-content {
-  max-width: 1440px;
-  width: 100%;
+/* Logo container - top left */
+.hero-logo {
+  position: absolute;
+  top: 3rem;
+  left: 5rem;
+}
+
+.logo {
+  width: 250px;
+  margin: 0;
+}
+
+/* Text + CTA container - bottom left */
+.hero-text {
+  position: absolute;
+  bottom: 4rem;
+  left: 5rem;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 3rem; /* pushes logo down a little */
 }
 
-/* Move text and CTA down from logo */
-.hero-content h1 {
-  margin-top: 2rem;
+.hero-text h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #9E834C;
+  margin-bottom: 1rem;
 }
 
-.hero-content p {
-  margin-top: 1rem;
+.hero-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #f4f4f5;
+  margin-bottom: 2rem;
 }
 
 .cta-btn {
-  margin-top: 2rem;
   background-color: #9E834C;
   color: #000000;
   padding: 12px 24px;
@@ -58,24 +71,4 @@ body {
 
 .cta-btn:hover {
   background-color: #b49760;
-}
-
-.logo {
-  width: 250px;
-  margin-bottom: 0;
-}
-
-h1 {
-  font-size: 25px;
-  font-weight: 700;
-  color: #9E834C;
-  margin-bottom: 1rem;
-}
-
-p {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 0;
-  font-weight: 400;
-  color: #f4f4f5;
 }
