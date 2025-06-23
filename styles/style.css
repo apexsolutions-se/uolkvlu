@@ -31,7 +31,7 @@ body {
 }
 
 .logo {
-  width: 120px;
+  width: 200px;
   margin-bottom: 1.5rem;
 }
 
@@ -66,8 +66,4 @@ p {
   background-color: #b49760;
 }
 
-.logo {
-  width: 250px; /* or try 220px, adjust to taste */
-  margin-bottom: 2rem;
-}
 
