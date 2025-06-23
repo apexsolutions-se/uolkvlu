@@ -65,3 +65,9 @@ p {
 .cta-btn:hover {
   background-color: #b49760;
 }
+
+.logo {
+  width: 120px;
+  margin-bottom: 1.5rem;
+}
+
