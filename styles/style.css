@@ -6,7 +6,7 @@ body {
 }
 
 .hero {
-  background: url('../assets/hero-bg.png') no-repeat center center;
+  background: url('assests/hero-bg.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   display: flex;
