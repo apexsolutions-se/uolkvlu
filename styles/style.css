@@ -34,7 +34,7 @@ body {
 /* Text + CTA container - bottom left */
 .hero-text {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 4rem;
   left: 5rem;
   max-width: 600px;
   display: flex;
