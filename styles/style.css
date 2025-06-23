@@ -76,8 +76,8 @@ body {
 
 .fox {
   position: absolute;
-  width: 250px;
-  height: auto;
+  width: 800px;
+  height: 800px;
   bottom: 3rem;
   right: 10rem;
   opacity: 0;
