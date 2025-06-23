@@ -47,7 +47,7 @@ body {
   font-weight: 700;
   color: #9E834C;
   margin-bottom: 1rem;
-  padding-bottom: 0;
+  line-height: 1;
 }
 
 .hero-text p {
