@@ -95,7 +95,7 @@ body {
 
 .moon {
   position: absolute;
-  width: 250px; /* adjust based on how big you want it */
+  width: 800px; /* adjust based on how big you want it */
   top: 5rem;
   right: 8rem;
   z-index: 1;
