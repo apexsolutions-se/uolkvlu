@@ -34,7 +34,7 @@ body {
 /* Text + CTA container - bottom left */
 .hero-text {
   position: absolute;
-  bottom: 4rem;
+  bottom: 0.5rem;
   left: 5rem;
   max-width: 600px;
   display: flex;
@@ -47,7 +47,6 @@ body {
   font-weight: 700;
   color: #9E834C;
   margin-bottom: 1rem;
-  line-height: 1;
 }
 
 .hero-text p {
