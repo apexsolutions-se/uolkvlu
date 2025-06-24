@@ -18,12 +18,13 @@ body {
   height: 100%;
   position: relative;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 /* Logo container - top left */
@@ -102,69 +103,11 @@ body {
 
 .moon {
   position: absolute;
-  width: 700px;
+  width: 700px; /* adjust based on how big you want it */
   top: 5rem;
   right: 8rem;
   z-index: 1;
 }
-
-/* ---------- RESPONSIVE FIXES BELOW ---------- */
-@media (max-width: 768px) {
-  .hero-overlay {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .hero-logo {
-    position: relative;
-    top: auto;
-    left: auto;
-    margin-bottom: 1rem;
-  }
-
-  .hero-text {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    max-width: 90%;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .hero-text h1 {
-    font-size: 20px;
-  }
-
-  .hero-text p {
-    font-size: 16px;
-  }
-
-  .moon {
-    width: 60vw;
-    top: 1rem;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
-  }
-
-  .fox {
-    width: 250px;
-    height: auto;
-    bottom: 1rem;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
-  }
-}
-
-/* ---------- END RESPONSIVE FIXES ---------- */
-
-
-/* Everything else below remains unchanged */
 
 .about {
   background-color: #f4f4f5;
