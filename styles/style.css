@@ -341,7 +341,7 @@ body {
     max-width: 320px;
     position: absolute;
     top: 8rem; /* <--- changed from bottom to top */
-    right: 2rem;
+    right: 3rem;
     z-index: 1;
   }
 
@@ -351,7 +351,7 @@ body {
     height: auto;
     position: absolute;
     top: 12rem; /* <--- adjusted to float over moon */
-    right: 1rem;
+    right: 2rem;
     animation: slideUp 1s ease-out 0.3s forwards;
     z-index: 5;
   }
