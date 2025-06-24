@@ -95,9 +95,11 @@ body {
 
 .moon {
   position: absolute;
-  width: 700px; /* adjust based on how big you want it */
-  top: 5rem;
-  right: 8rem;
+  width: 35vw;
+  max-width: 700px;
+  aspect-ratio: 1 / 1;
+  top: 5%;
+  right: 5%;
   z-index: 1;
 }
 
@@ -262,29 +264,4 @@ body {
   color: #d2b67b;
   margin: 0.5rem 0 0;
 }
-
-@media (max-width: 1024px) {
-  .moon {
-    width: 60vw;
-    top: 3rem;
-    right: 4rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .moon {
-    width: 50vw;
-    top: 2rem;
-    right: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .moon {
-    width: 40vw;
-    top: 1rem;
-    right: 1rem;
-  }
-}
-
 
