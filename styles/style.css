@@ -334,31 +334,31 @@ body {
   overflow-x: hidden;
 }
 
-/* HERO SECTION: Mobile Styling */
+/* ===== MOBILE STYLES: HERO SECTION ===== */
 @media (max-width: 768px) {
   .hero {
     text-align: center;
     padding: 4rem 1rem;
-    background-color: black;
+    background-color: black; /* Ensure black background on mobile */
   }
 
   .hero-overlay {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Vertically center content */
   }
 
   .hero img {
     max-width: 80%;
     height: auto;
-    margin: 0 auto 2rem;
+    margin: 0 auto 2rem; /* Center the moon/wolf image with spacing */
   }
 
   .hero h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #d2b67b;
+    color: #d2b67b; /* Gold text */
     margin-bottom: 1rem;
   }
 
@@ -371,15 +371,16 @@ body {
   }
 
   .hero button {
-    background-color: #9e834c;
+    background-color: #9e834c; /* Button color */
     color: #000;
     font-weight: bold;
     padding: 0.8rem 1.5rem;
-    border-radius: 9999px;
+    border-radius: 9999px; /* Fully rounded */
     border: none;
     font-size: 1rem;
   }
 
+  /* ===== MOBILE STYLES: NAVBAR ===== */
   .navbar {
     padding: 1rem;
   }
@@ -391,11 +392,11 @@ body {
   }
 
   .navbar-logo img {
-    height: 60px;
+    height: 60px; /* Resize logo for mobile */
   }
 
   .navbar-links {
-    display: none; /* Hide normal links on small screens (optional if using hamburger) */
+    display: none; /* Hide desktop links on mobile */
   }
 }
 
