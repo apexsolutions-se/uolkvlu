@@ -274,6 +274,7 @@ body {
   right: 0;
   width: 100%;
   z-index: 1;
+  bottom: 3rem;
   box-sizing: border-box; /* Important to prevent padding from causing overflow */
 }
 
