@@ -156,11 +156,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 2.8rem;
 }
 
 .focus-item {
-  width: 150px;
+  width: 155px;
 }
 
 .focus-item img {
