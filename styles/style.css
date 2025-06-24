@@ -376,19 +376,26 @@ body {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: -20px; /* Adjust to move moon upward */
+  top: 110px; /* Adjust to move moon upward */
+  left: 4px;
 }
 
 /* Precise fox positioning */
 .fox {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
+  transform: translateY(50%);
   width: 80%;
   max-width: 350px;
 }
 
+   @keyframes slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
   .hero h1 {
     font-size: 1.5rem;
