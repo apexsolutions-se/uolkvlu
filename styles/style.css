@@ -362,14 +362,33 @@ body {
     padding: 0;
   }
 
-  .hero img {
-    position: absolute;
-    top: 100;
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 0 auto;
-  }
+/* Only style images *not* specifically positioned like moon or fox */
+.hero img:not(.moon):not(.fox) {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto 2rem;
+}
+
+  /* Precise moon positioning */
+.moon {
+  width: 90%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -20px; /* Adjust to move moon upward */
+}
+
+/* Precise fox positioning */
+.fox {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 350px;
+}
+
 
   .hero h1 {
     font-size: 1.5rem;
