@@ -386,32 +386,33 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.navbar-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
-
-.navbar-logo img {
-  height: 30px;
-  width: 40;
-}
-
-.navbar-links {
-  display: flex;
-  gap: 1.2rem;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar-logo img {
+    height: 30px;
+    width: 40;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
 }
