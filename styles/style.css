@@ -119,15 +119,19 @@ body {
   }
 
   .hero-logo {
-    position: static;
-    margin-bottom: 2rem;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-bottom: 1rem;
   }
 
   .hero-text {
-    position: static;
+    position: relative;
+    bottom: auto;
+    left: auto;
+    max-width: 90%;
     align-items: center;
     text-align: center;
-    max-width: 90%;
     margin-bottom: 2rem;
   }
 
@@ -139,26 +143,24 @@ body {
     font-size: 16px;
   }
 
-  .cta-btn {
-    font-size: 14px;
-  }
-
   .moon {
     width: 60vw;
     top: 1rem;
-    right: auto;
     left: 50%;
+    right: auto;
     transform: translateX(-50%);
   }
 
   .fox {
     width: 250px;
     height: auto;
-    right: auto;
+    bottom: 1rem;
     left: 50%;
-    transform: translate(-50%, 50px);
+    right: auto;
+    transform: translateX(-50%);
   }
 }
+
 /* ---------- END RESPONSIVE FIXES ---------- */
 
 
