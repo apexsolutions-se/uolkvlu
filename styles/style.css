@@ -382,63 +382,24 @@ body {
     padding: 10px 20px;
   }
 
-/* Show hamburger icon */
-  .hamburger {
-    width: 30px;
-    height: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    z-index: 30;
-  }
-
-  .hamburger span {
-    height: 3px;
-    width: 100%;
-    background-color: #9E834C;
-    border-radius: 2px;
-    transition: all 0.3s ease;
-  }
-
-  /* Mobile Nav */
-  .mobile-nav {
-    position: absolute;
-    top: 100%;
-    right: 1rem;
-    background-color: #000;
-    padding: 1rem;
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    z-index: 25;
-  }
-
-  .mobile-nav.show {
-    display: flex;
-  }
-
-  .mobile-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    font-size: 16px;
-  }
-}
-
-/* DESKTOP OVERRIDES — must be outside the mobile media query */
-@media (min-width: 769px) {
+@media (max-width: 768px) {
   .navbar-links {
     display: flex;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    padding-top: 1rem;
   }
 
-  .hamburger {
-    display: none;
+  .navbar-links a {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-decoration: none;
   }
 
-  .mobile-nav {
-    display: none !important;
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
