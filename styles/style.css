@@ -268,7 +268,7 @@ body {
 .navbar {
   background-color: transparent;
   padding: 1.5rem 3rem;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -286,6 +286,7 @@ body {
   width: 100%;
   padding: 0; /* Ensure no internal spacing adds to the width */
   box-sizing: border-box;
+  flex-wrap: wrap; /* allows logo and links to wrap if needed */
 }
 
 .navbar-logo .logo-img {
