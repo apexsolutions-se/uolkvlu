@@ -382,20 +382,26 @@ body {
     padding: 10px 20px;
   }
 
-@media (max-width: 768px) {
+.navbar {
+  padding: 0.5rem 1rem; /* smaller padding */
+}
+
 .navbar-container {
-  flex-direction: row; /* force side-by-side */
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row; /* force logo and links to be side-by-side */
   align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
 }
 
 .navbar-links {
+  display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1rem;
-  padding-top: 0;
+  padding: 0;
+  margin: 0;
 }
 
-.navbar-links a {
-  font-size: 14px;
-}
 
