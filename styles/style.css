@@ -336,54 +336,62 @@ body {
 
 /* ===== MOBILE STYLES: HERO SECTION ===== */
 /* ===== MOBILE STYLES FOR HERO SECTION: Optimized layout ===== */
-@media (max-width: 768px) {
-  .hero {
-    padding: 2rem 1rem;
-    background-color: black;
-    text-align: center;
-    position: relative;
-  }
+/* === HERO SECTION: fix alignment on mobile === */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* align everything toward the top */
+  align-items: center;
+  padding: 2rem 1rem 4rem;
+  background-color: black;
+  position: relative;
+}
 
-  .hero-overlay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
-    padding-top: 2rem;
-  }
+.hero-overlay {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .hero img {
-    width: 250px;
-    height: auto;
-    margin-bottom: 1.5rem;
-  }
+/* Bring the image closer to the top */
+.hero img {
+  max-width: 80%;
+  height: auto;
+  margin: 1rem auto 1.5rem;
+}
 
-  .hero h1 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #d2b67b;
-    margin: 1rem 0 0.5rem;
-    max-width: 90%;
-  }
+/* Remove unnecessary space */
+.hero-text {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
 
-  .hero p {
-    font-size: 0.95rem;
-    color: white;
-    line-height: 1.5;
-    max-width: 90%;
-    margin: 0 auto 1.5rem;
-  }
+/* Fix typography spacing */
+.hero-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d2b67b;
+  margin-bottom: 1rem;
+}
 
-  .hero button {
-    background-color: #b9995b;
-    color: black;
-    font-weight: bold;
-    padding: 0.6rem 1.2rem;
-    border: none;
-    border-radius: 999px;
-    font-size: 1rem;
-  }
+.hero-text p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text button {
+  background-color: #d2b67b;
+  color: black;
+  font-weight: bold;
+  padding: 0.7rem 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  font-size: 1rem;
+}
+
  
 
   /* Our Approach */
