@@ -315,6 +315,11 @@ body {
   transition: color 0.3s ease;
 }
 
+.nav-link:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .nav-link:hover {
   color: #d2b67b;
 }
