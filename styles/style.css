@@ -95,11 +95,9 @@ body {
 
 .moon {
   position: absolute;
-  width: 35vw;
-  max-width: 700px;
-  aspect-ratio: 1 / 1;
-  top: 5%;
-  right: 5%;
+  width: 700px; /* adjust based on how big you want it */
+  top: 5rem;
+  right: 8rem;
   z-index: 1;
 }
 
