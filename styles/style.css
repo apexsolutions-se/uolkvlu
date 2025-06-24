@@ -236,6 +236,33 @@ body {
   color: #d2b67b;
 }
 
+.footer {
+  background-color: #000;
+  color: #9E834C;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.footer-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+}
+
+.footer h3 {
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #d2b67b;
+  margin: 0.5rem 0 0;
+}
+
 
 
 
