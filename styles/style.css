@@ -358,12 +358,12 @@ body {
 
   .hero-text {
     position: absolute;
-    bottom: 20rem;
+    bottom: 15rem;
     left: 1rem;
     right: 1rem;
     text-align: left;
     padding: 1rem;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0);
     z-index: 10;
   }
 
