@@ -99,6 +99,7 @@ body {
   top: 5rem;
   right: 8rem;
   z-index: 1;
+  transform: translateY(50px);
 }
 
 .about {
