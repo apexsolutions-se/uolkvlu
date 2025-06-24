@@ -132,5 +132,48 @@ body {
   font-size: 16px;
 }
 
+.focus-area {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.focus-area h2 {
+  font-size: 1.75rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.focus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.focus-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.focus-item {
+  width: 150px;
+}
+
+.focus-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.focus-item p {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #333;
+}
+
 
 
