@@ -383,16 +383,19 @@ body {
   /* ===== MOBILE STYLES: NAVBAR ===== */
   .navbar {
     padding: 1rem;
+    width: 100%;
+    height: 40px;
   }
 
   .navbar-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
   }
 
   .navbar-logo img {
-    height: 60px; /* Resize logo for mobile */
+    height: 40px; /* Resize logo for mobile */
   }
 
   .navbar-links {
