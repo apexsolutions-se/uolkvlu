@@ -334,62 +334,67 @@ body {
   overflow-x: hidden;
 }
 
-/* ===== MOBILE STYLES: HERO SECTION ===== */
-/* ===== MOBILE STYLES FOR HERO SECTION: Optimized layout ===== */
-/* === HERO SECTION: fix alignment on mobile === */
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* align everything toward the top */
-  align-items: center;
-  padding: 2rem 1rem 4rem;
-  background-color: black;
-  position: relative;
-}
+/* === Hero Mobile Cleanup === */
+@media (max-width: 768px) {
+  .hero {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    position: relative;
+  }
 
-.hero-overlay {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .hero-overlay {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
-/* Bring the image closer to the top */
-.hero img {
-  max-width: 80%;
-  height: auto;
-  margin: 1rem auto 1.5rem;
-}
+  .navbar {
+    padding: 1rem;
+    background-color: transparent;
+  }
 
-/* Remove unnecessary space */
-.hero-text {
-  text-align: center;
-  max-width: 90%;
-  margin: 0 auto;
-}
+  .navbar-container {
+    margin: 0;
+    padding: 0;
+  }
 
-/* Fix typography spacing */
-.hero-text h1 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #d2b67b;
-  margin-bottom: 1rem;
-}
+  .hero img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
 
-.hero-text p {
-  font-size: 1rem;
-  color: white;
-  margin-bottom: 1.5rem;
-}
+  .hero h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #d2b67b;
+    text-align: center;
+  }
 
-.hero-text button {
-  background-color: #d2b67b;
-  color: black;
-  font-weight: bold;
-  padding: 0.7rem 1.5rem;
-  border-radius: 9999px;
-  border: none;
-  font-size: 1rem;
+  .hero p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 90%;
+  }
+
+  .hero button {
+    margin-top: 1rem;
+    background-color: #d2b67b;
+    color: black;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 9999px;
+    border: none;
+  }
 }
 
  
