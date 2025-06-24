@@ -263,11 +263,28 @@ body {
   margin: 0.5rem 0 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .moon {
     width: 60vw;
-    top: 10%;
-    right: 10%;
+    top: 3rem;
+    right: 4rem;
   }
 }
+
+@media (max-width: 768px) {
+  .moon {
+    width: 50vw;
+    top: 2rem;
+    right: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .moon {
+    width: 40vw;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
 
