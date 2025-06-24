@@ -340,23 +340,21 @@ body {
     width: 90vw;
     max-width: 320px;
     position: absolute;
-    top: 6rem;
-    left: 50%;
+    top: 8rem; /* <--- changed from bottom to top */
+    right: 2rem;
     z-index: 1;
   }
-  
+
   .fox {
     width: 70vw;
     max-width: 280px;
     height: auto;
     position: absolute;
-    top: 10rem;
-    left: 50%;
-    transform: translateY(-50%);
+    top: 12rem; /* <--- adjusted to float over moon */
+    right: 1rem;
     animation: slideUp 1s ease-out 0.3s forwards;
     z-index: 5;
   }
-
 
   .hero-text {
     position: absolute;
