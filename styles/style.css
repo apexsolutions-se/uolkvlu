@@ -384,28 +384,7 @@ body {
     border-radius: 999px;
     font-size: 1rem;
   }
-
-  /* ===== MOBILE NAVBAR ===== */
-  .navbar {
-    padding: 1rem;
-  }
-
-  .navbar-container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .navbar-logo img {
-    height: 50px;
-  }
-
-  .navbar-links {
-    display: none;
-  }
-}
-
-
+ 
 
   /* Our Approach */
   .approach-section {
