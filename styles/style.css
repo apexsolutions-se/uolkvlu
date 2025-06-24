@@ -273,9 +273,8 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
   box-sizing: border-box; /* Important to prevent padding from causing overflow */
-  top: 10rem:
 }
 
 .navbar-container {
