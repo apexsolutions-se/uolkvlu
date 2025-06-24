@@ -175,5 +175,67 @@ body {
   color: #333;
 }
 
+.approach {
+  background-color: #f4f4f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.approach h2 {
+  font-size: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  color: #000;
+}
+
+.approach-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.approach-card {
+  background-color: #000;
+  color: #d2b67b;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 250px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.approach-card:hover {
+  transform: translateY(-5px);
+}
+
+.approach-number {
+  font-size: 1.5rem;
+  color: #9E834C;
+  margin-bottom: 1rem;
+  border: 2px solid #9E834C;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.approach-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #f4f4f5;
+}
+
+.approach-card p {
+  font-size: 14px;
+  color: #d2b67b;
+}
+
+
 
 
