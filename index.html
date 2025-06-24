@@ -17,12 +17,20 @@
     <a href="index.html" class="navbar-logo">
       <img src="assets/logo.png" alt="ULVKLOU Logo" class="logo-img">
     </a>
-    <nav class="navbar-links">
-      <a href="index.html" class="nav-link gold">HOME</a>
-      <a href="contact.html" class="nav-link">CONTACT</a>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="index.html">HOME</a>
+      <a href="contact.html">CONTACT</a>
     </nav>
   </div>
 </header>
+
 
     
         <img src="assets/moon.png" alt="Moon" class="moon">
@@ -128,6 +136,14 @@
 </footer>
 
 
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobileNav');
+
+  hamburger.addEventListener('click', () => {
+    mobileNav.classList.toggle('show');
+  });
+</script>
 
 
 </body>
