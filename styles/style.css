@@ -289,13 +289,6 @@ body {
   flex-wrap: wrap; /* allows logo and links to wrap if needed */
 }
 
-@media (max-width: 768px) {
-  .navbar-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
   .navbar-links {
     justify-content: flex-start;
     flex-wrap: wrap;
