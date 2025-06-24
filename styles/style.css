@@ -277,8 +277,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
+  padding: 0 2rem; /* Add horizontal padding */
 }
 
 .navbar-logo .logo-img {
