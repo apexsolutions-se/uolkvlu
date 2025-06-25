@@ -146,7 +146,7 @@
     
       .contact-wrapper {
         flex-direction: column;
-        align-items: center; /* centers left and right */
+        align-items: center; /* centers contact-left and contact-right */
         text-align: center;
       }
     
@@ -154,6 +154,11 @@
       .contact-left {
         width: 100%;
         max-width: 500px;
+      }
+    
+      .contact-form input::placeholder,
+      .contact-form textarea::placeholder {
+        text-align: center;
       }
     }
 
