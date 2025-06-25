@@ -400,13 +400,10 @@ body {
     width: 40;
   }
   
-  .navbar-links {
-    display: flex;
-    gap: 1.2rem;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
+.navbar-links {
+  display: none;
+}
+
   
   .navbar-links a {
     color: #fff;
@@ -416,3 +413,50 @@ body {
     letter-spacing: 0.1em;
   }
 }
+
+/* Hamburger icon styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 2px;
+  background-color: #9E834C;
+  display: block;
+  transition: 0.3s ease;
+}
+
+/* Mobile menu drawer styles */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #9E834C;
+  padding: 5rem 2rem 2rem;
+  z-index: 100;
+}
+
+.mobile-menu a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+
+/* Show hamburger only on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
