@@ -392,6 +392,7 @@ body {
   right: 0;
   width: 100%;
   z-index: 1000;
+  pointer-events: none; /* disables all pointer interactions */
 }
 
 
@@ -402,6 +403,7 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
+    pointer-events: auto;
   }
   
   .navbar-logo img {
