@@ -536,3 +536,11 @@ body {
     justify-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .focus-grid > .focus-item:last-child {
+    grid-column: span 2;
+    justify-self: center;
+  }
+}
+
