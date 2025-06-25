@@ -513,8 +513,4 @@ body {
   transform: translateY(0);
 }
 
-/* Lock scroll when menu is open */
-body.no-scroll {
-  overflow: hidden;
-}
 
