@@ -547,22 +547,5 @@ body {
   }
 }
 
-/*OUR APPROACH SECTION*/
-@media (max-width: 768px) {
-  .approach-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    justify-items: center;
-    padding: 1rem;
-  }
-
-  .approach-card {
-    width: 100%;
-    max-width: 160px;  /* match your design’s narrow shape */
-    padding: 1.5rem;
-    box-sizing: border-box;
-  }
-}
 
 
