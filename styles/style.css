@@ -501,7 +501,7 @@ body {
   left: 0;
   right: 0;
   background-color: #9E834C;
-  padding: 4rem 2rem 1rem;
+  padding: 2rem 2rem 2rem;
   z-index: 500; /* lower than navbar’s z-index */
   transform: translateY(-100%);
   transition: transform 0.3s ease;
