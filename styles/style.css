@@ -513,4 +513,18 @@ body {
   transform: translateY(0);
 }
 
+  .menu-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0); /* or 0.3 if you want slight dimming */
+  z-index: 400;
+}
+.menu-overlay.active {
+  display: block;
+}
+
 
