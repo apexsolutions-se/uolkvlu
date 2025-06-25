@@ -207,9 +207,11 @@ body {
   color: #d2b67b;
   border-radius: 20px;
   padding: 2rem;
-  width: 240px;
+  width: 100%;
+  max-width: 240px; /* keep the original card size as a max */
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   transition: transform 0.3s;
+   box-sizing: border-box;    /* ensures padding is included in width */
 }
 
 .approach-card:hover {
