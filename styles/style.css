@@ -516,3 +516,14 @@ body {
 .menu-overlay.active {
   display: block;
 }
+
+/*for hero line break*/
+.line-break {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+  .line-break {
+    display: none;
+  }
+}
