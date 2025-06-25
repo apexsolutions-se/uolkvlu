@@ -497,7 +497,7 @@ body {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 85px; /* or adjust based on actual navbar height */
+  top: 90px; /* or adjust based on actual navbar height */
   left: 0;
   right: 0;
   background-color: #9E834C;
