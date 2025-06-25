@@ -424,6 +424,7 @@ body {
     letter-spacing: 0.1em;
   }
 }
+/*-------- copied this and will change later------*/
 
 /* Hamburger icon styles */
 .hamburger {
@@ -447,16 +448,17 @@ body {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 80px; /* Push it below the navbar */
+  top: 95px; /* or adjust based on actual navbar height */
   left: 0;
   right: 0;
   background-color: #9E834C;
-  padding: 2rem 2rem 2rem;
-  z-index: 999;
+  padding: 2rem 2rem 0rem;
+  z-index: 500; /* lower than navbar’s z-index */
   transform: translateY(-100%);
   transition: transform 0.3s ease;
+  height: auto;
+  box-sizing: border-box;
 }
-
 
 .mobile-menu a {
   color: #000;
@@ -475,38 +477,22 @@ body {
   }
 
   /* Animate hamburger to X */
-.hamburger.open span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
 
-.hamburger.open span:nth-child(2) {
-  opacity: 0;
-}
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
 
-.hamburger.open span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
-}
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
 
-/* Enable smooth transition */
-.hamburger span {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-/* Mobile menu slide animation */
-.mobile-menu {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 95px; /* or adjust based on actual navbar height */
-  left: 0;
-  right: 0;
-  background-color: #9E834C;
-  padding: 2rem 2rem, 0rem;
-  z-index: 500; /* lower than navbar’s z-index */
-  transform: translateY(-100%);
-  transition: transform 0.3s ease;
-  height: auto;              /* ← allow it to shrink to fit content */
-  box-sizing: border-box;    /* ← ensures padding doesn't add to size weirdly */
+  /* Enable smooth transition */
+  .hamburger span {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
 }
 
 /* Show menu with slide-down */
@@ -515,7 +501,8 @@ body {
   transform: translateY(0);
 }
 
-  .menu-overlay {
+/* Menu overlay */
+.menu-overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -525,8 +512,7 @@ body {
   background: rgba(0, 0, 0, 0); /* or 0.3 if you want slight dimming */
   z-index: 400;
 }
+
 .menu-overlay.active {
   display: block;
 }
-
-
