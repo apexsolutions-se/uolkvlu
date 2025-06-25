@@ -383,13 +383,14 @@ body {
   }
 
  .navbar {
-  background-color: #000;
+  background-color: transparent;
   padding: 1.5rem 3rem;
   position: fixed; /* <- change from absolute to fixed */
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 
