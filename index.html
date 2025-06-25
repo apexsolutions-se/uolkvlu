@@ -143,6 +143,16 @@
   <a href="contact.html">CONTACT</a>
 </div>
 
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.style.display === 'flex';
+    mobileMenu.style.display = isOpen ? 'none' : 'flex';
+  });
+</script>
+
 
 
 </body>
