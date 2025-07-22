@@ -292,13 +292,19 @@
 
     <div class="contact-right">
       <h3>GET IN TOUCH</h3>
-      <form class="contact-form">
-        <input type="text" placeholder="NAME" required>
-        <input type="text" placeholder="COMPANY NAME">
-        <input type="email" placeholder="EMAIL" required>
-        <textarea placeholder="MESSAGE" required></textarea>
+      <form class="contact-form" action="https://formsubmit.co/imperialkatelyn@gmail.com" method="POST">
+        <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_subject" value="New message from ULVKLOU Contact Form">
+        <input type="hidden" name="_autoresponse" value="Thank you for reaching out. We’ll be in touch soon.">
+        <input type="hidden" name="_captcha" value="false">
+      
+        <input type="text" name="name" placeholder="NAME" required>
+        <input type="text" name="company" placeholder="COMPANY NAME">
+        <input type="email" name="email" placeholder="EMAIL" required>
+        <textarea name="message" placeholder="MESSAGE" required></textarea>
         <button type="submit">SUBMIT</button>
       </form>
+
     </div>
   </section>
 
